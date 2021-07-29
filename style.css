@@ -6,7 +6,7 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
-/* header ssection  */
+/* ----------------------header ssection ------------------------------------------------- */
 .bg-css-style{
     background-color:#264653;
     color: #FFFFFF;
@@ -26,18 +26,66 @@ body{
     font-size: 16px;
     line-height: 24px;
 }
-/* main  section  */
-.img-fluid{
-    width: 288px;
-    height: 243px;
+
+/* ---------------------------main  section ------------------------------------------------------ */
+.g-image{
     filter: grayscale(100%);
 }
-.g-img-fluid{
-    width: 288px;
-    height: 243px;
-}
-.card-img-top{
-    cursor:pointer; 
-
-
+ /* ==========================================extra part style =================================== */
+                        /* hover effect  */
+ .our-team {
+        text-align: center;
+        position: relative;
+        color: white;
+        text-decoration: none;
+      }
+      .our-team img {
+        width: 100%;
+      }
+      .our-team .content {
+        background: rgba(0, 0, 0, 0.6);
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transform: perspective(400px) rotateX(-90deg);
+        transform-origin: center top 0;
+        transition: all 0.5s ease 0s;
+        opacity: 0;
+      }
+      .our-team:hover .content,
+      .our-team.active .content {
+        opacity: 1;
+        transform: perspective(400px) rotateX(0deg);
+      }
+      .our-team .content .tittle {
+        font-size: 25px;
+        font-weight: 600;
+      }
+      
+      .our-team .social li {
+        display: inline-block;
+      }
+      .our-team .social li a {
+        display: block;
+        color: white;
+        font-size: 20px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        border-radius: 0;
+        background-color: rgb(135, 16, 61);
+        margin-right: 5px;
+        transition: all 0.5s ease 0s;
+        position: relative;
+      }
+      .our-team .social li a:hover,
+      .our-team.active .social li a {
+        border-radius: 50%;
+        text-decoration: none;
+      } 
+                         /* google form*/
+.container-fluid{
+    background-image: linear-gradient(rgb(17, 17, 75),cyan,rgb(17, 90, 119));
 }
