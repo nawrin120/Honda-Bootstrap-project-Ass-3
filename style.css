@@ -7,20 +7,20 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 /* ----------------------header ssection ------------------------------------------------- */
-.bg-css-style{
+#header-section{
     background-color:#264653;
     color: #FFFFFF;
 }
-.bold{
+/* .bold{
     line-height: 72px;
     font-weight: 600;
     font-size: 48px;
-}
-.small{
+} */
+/* .small{
     font-weight: 300;
     line-height: 22px;
     font-size: 14px;
-}
+} */
 .para-change{
     font-weight: 300;
     font-size: 16px;
@@ -33,6 +33,13 @@ body{
 }
  /* ==========================================extra part style =================================== */
                         /* hover effect  */
+#effect{
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+                        
+
+    
  .our-team {
         text-align: center;
         position: relative;
@@ -86,6 +93,6 @@ body{
         text-decoration: none;
       } 
                          /* google form*/
-.container-fluid{
+#google-section{
     background-image: linear-gradient(rgb(17, 17, 75),cyan,rgb(17, 90, 119));
 }
